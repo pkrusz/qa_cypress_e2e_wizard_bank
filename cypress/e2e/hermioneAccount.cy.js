@@ -1,8 +1,8 @@
 /// <reference types='cypress' />
 
 describe('Bank app', () => {
-  const depositAmount = '3000';
-  const withdrawAmount = '3000';
+  const depositAmount = 3000;
+  const withdrawAmount = 3000;
   const balance = depositAmount - withdrawAmount;
 
   before(() => {
